@@ -22,3 +22,13 @@ zeroed and uninitialized one.
 4. OPTIONAL: If step 3 doesn't work, you can select the control table by hand to help the script along.
 
 See the initial comment block in the script for details.
+
+
+# `keil-decompress.py` - Decompress a Keil compressed memory block
+
+If `keil-ram-init.py` doesn't work for some reason you may have to figure out the
+memory initialization yourself. To help you with that here's a script that will take
+care of the decompression step by simply marking the compressed data and running
+the script. The decompressed data will be placed into the clipboard.
+
+See the initial comment block in the script for detailed instructions.
